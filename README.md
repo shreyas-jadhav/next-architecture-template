@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Starter code and Architecture setup for Following Stack
+
+- [Next.js](https://nextjs.org/) (v12)
+- [MongoDB Node Driver](https://docs.mongodb.com/drivers/node/current/) (v4.3)
+- [Material UI](https://mui.com) (v5)
+- [Joi Validation](https://joi.dev)
+- [react-hook-form](https://react-hook-form.com/)
+
+This is a project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
