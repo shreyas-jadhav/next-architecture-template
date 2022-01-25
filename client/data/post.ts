@@ -12,5 +12,5 @@ export const createPost = async (data: IPost) => {
     if (res.status != 200) {
         throw new ClientSideError('Something went wrong. Please try again.');
     }
-    return res.json()
+    return res.text()
 }
