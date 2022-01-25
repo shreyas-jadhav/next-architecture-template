@@ -12,6 +12,7 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import { joiResolver } from "@hookform/resolvers/joi";
 import { IPost, PostSchema } from "models/post";
 import { createPost } from "@/client/data/post";
+import toast from "react-hot-toast";
 
 type Props = {};
 
@@ -24,6 +25,8 @@ const PostForm = (props: Props) => {
     try {
       setLoading(true);
       await createPost(data as IPost);
+      toast.success(`Successfully create post!`);
+      methods.reset();
     } finally {
       setLoading(false);
     }
