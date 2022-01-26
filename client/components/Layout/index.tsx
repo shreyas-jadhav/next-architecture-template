@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import React from "react";
 import Appbar from "./Appbar";
 import Footer from "./Footer";
@@ -14,14 +15,14 @@ interface Props {
 // you can see it here how it is done
 // https://stackoverflow.com/a/66914975/15507251
 
-const index = ({ navbar, footer, children }: Props) => {
+const Layout = ({ navbar, footer, children }: Props) => {
   return (
     <>
       {navbar !== undefined ? navbar : <Appbar />}
-      <main>{children || null}</main>
+      <Box component="main">{children || null}</Box>
       {footer !== undefined ? footer : <Footer />}
     </>
   );
 };
 
-export default index;
+export default Layout;
