@@ -21,7 +21,10 @@ const Index: NextPage = () => {
               <Typography variant="h6" component="h2">
                 Complete Starter Code for your Next Scalable Project.
               </Typography>
-              <Typography component="a" href="#about">
+              <Typography
+                component="a"
+                href="https://next-architecture-docs.vercel.app/"
+              >
                 Read More About Architecture
               </Typography>
             </>
