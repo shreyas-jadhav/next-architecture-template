@@ -6,7 +6,8 @@ Starter code and Architecture setup for Following Stack
 - [Joi Validation](https://joi.dev)
 - [react-hook-form](https://react-hook-form.com/)
 
-This is a project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Demo: https://next-mongodb-mui-architecture.vercel.app/
+### Read More: https://next-architecture-docs.vercel.app/
 
 ## Getting Started
 
