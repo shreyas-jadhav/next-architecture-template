@@ -43,11 +43,28 @@ const Index: NextPage = () => {
         <Typography id="about" variant="h4">
           About
         </Typography>
+        <Stack component="ul">
+          <li>
+            <Typography component="a" href="#server">
+              Server Architecture
+            </Typography>
+          </li>
+          <li>
+            <Typography component="a" href="#data-validation">
+              Data Validation
+            </Typography>
+          </li>
+        </Stack>
         <SideBySideContent
           rightContent={null}
           leftContent={
             <>
-              <Typography variant="h5" component="h1" fontWeight="bold">
+              <Typography
+                variant="h5"
+                id="server"
+                component="h1"
+                fontWeight="bold"
+              >
                 Server Architecture
               </Typography>
               <Stack component="ul" spacing={2}>
