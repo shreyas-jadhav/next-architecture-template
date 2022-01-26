@@ -5,8 +5,10 @@ Starter code and Architecture setup for Following Stack
 - [Material UI](https://mui.com) (v5)
 - [Joi Validation](https://joi.dev)
 - [react-hook-form](https://react-hook-form.com/)
+- [next-auth](https://next-auth.js.org/)
 
 ### Demo: https://next-mongodb-mui-architecture.vercel.app/
+
 ### Read More: https://next-architecture-docs.vercel.app/
 
 ## Getting Started
