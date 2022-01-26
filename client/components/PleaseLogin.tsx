@@ -13,7 +13,8 @@ const PleaseLogin = (props: Props) => {
       flexDirection="column"
     >
       <Alert severity="warning">
-        <AlertTitle>Please Login to view this.</AlertTitle>
+        <AlertTitle>Please Login or Sign Up</AlertTitle>
+        This content required authentication.
       </Alert>
       <Button
         color="primary"
