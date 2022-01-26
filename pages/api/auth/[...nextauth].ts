@@ -16,5 +16,7 @@ export default NextAuth({
         colorScheme: 'auto',
         brandColor: theme.palette.primary.main,
 
-    }
+  },
+    secret: process.env.NEXTAUTH_SECRET
+
 });
