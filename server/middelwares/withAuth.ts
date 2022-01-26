@@ -4,8 +4,8 @@ import { ApiHandler } from "server/types"
 
 export const withAuth = (handler: ApiHandler): ApiHandler => async (req, res) => {
     const session = await getSession({ req });
-    
+        
     if (!session) throw new UnauthorizedError();
-    return await handler(req,res)
+    await handler(req,res)
 }
 
