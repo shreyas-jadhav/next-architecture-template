@@ -11,6 +11,8 @@ Starter code and Architecture setup for Following Stack
 
 ### Read More: https://next-architecture-docs.vercel.app/
 
+<a href="https://www.buymeacoffee.com/Shreyas"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=Shreyas&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
+
 ## Getting Started
 
 1. Create a copy of `env.example` file and rename is `.env.local`.
